@@ -10,11 +10,11 @@
 }
 .header {
     height: 370px;
-    background-image: url(/assets/header_desktop@2x.png);
+    background-image: url(assets/header_desktop@2x.png);
     position: relative;
     background-size: cover;
     @include pad() {
-        background-image: url(/assets/header_mobile.png);
+        background-image: url(assets/header_mobile.png);
         flex-direction: column;
         align-items: center;
         width: 99%;
@@ -39,7 +39,7 @@
         display: block;
         width: 200px;
         height: 50px;
-        background: url("/assets/logo_w@svg.svg") no-repeat center/contain;
+        background: url("assets/logo_w@svg.svg") no-repeat center/contain;
         text-indent: 101%;
         overflow: hidden;
         white-space: nowrap;

@@ -51,14 +51,14 @@ a {
 
 .header {
   height: 370px;
-  background-image: url(/assets/header_desktop@2x.png);
+  background-image: url(assets/header_desktop@2x.png);
   position: relative;
   background-size: cover;
 }
 
 @media (max-width: 768px) {
   .header {
-    background-image: url(/assets/header_mobile.png);
+    background-image: url(assets/header_mobile.png);
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -96,7 +96,7 @@ a {
   display: block;
   width: 200px;
   height: 50px;
-  background: url("/assets/logo_w@svg.svg") no-repeat center/contain;
+  background: url("assets/logo_w@svg.svg") no-repeat center/contain;
   text-indent: 101%;
   overflow: hidden;
   white-space: nowrap;
